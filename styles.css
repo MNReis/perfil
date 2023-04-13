@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+background-color: #000000;
+}
+header {
+  padding: 20px;
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+
+.profile-banner img {
+  width: 100%;
+}
+
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -70px;
+  position: relative;
+  z-index: 2;
+}
+
+
+.profile-avatar img {
+  border-radius: 5%;
+  width: 150px;
+  height: 150px;
+  border-radius: 300px;
+  position: relative;
+  left: -360px;
+  top:0px;
+}
+
+
+.profile-header h1 {
+  position: relative;
+  left: -351px;
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #e6ecf0;
+
+}
+
+
+.profile-header h2 {
+  position: relative;
+  left: -360px; /* Mudar a posição horizontal */
+  top: -4px; /* Mudar a posição vertical */
+    font-size: 16px;
+  color: rgb(154, 154, 154);
+  padding: 8px;
+  margin-left: 0px;
+  height: 35px;
+  width: 35px;
+
+}
+
+
+.profile-nav {
+  margin-top: 20px;
+  border-bottom: 1px solid #e6ecf0;
+  height: 32px;
+  width: 32px;
+}
+
+
+.profile-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+
+.profile-nav li {
+  margin-right: 20px;
+}
+
+
+.profile-nav a {
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+
+.profile-nav a:hover {
+  text
+}
+
+.text{
+  position: relative;
+  left: -245px;
+  top: -40px;
+  font-family: Times;
+  color: #ffff;
+  justify-content: center;
+:left:
+}
+
+#musica {
+   position: relative;
+  left: 227px; /* Mudar a posição horizontal */
+  top: 4px; /* Mudar a posição vertical */
+}
+.logo1 {
+  position: relative;
+  left: -350px;
+  top: -40px;
+  font-size: 17px;
+  color: #08090b;
+  max-width: 60px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.rede-social-img {
+  position: relative;
+  left: 150px;
+  top: -50px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+ 
+}
+
