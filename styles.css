@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 body {
   font-size: 26px;
-  background-image: url(https://i.imgur.com/SbeH9Ye.png);
+  background-image: image(bgimage2.png);
 font-family: 'Times New Roman', Times, serif;
   color: #fff;
 }
@@ -101,7 +101,7 @@ font-family: 'Times New Roman', Times, serif;
   max-width: 850px;
   padding: 10px;
   color: rgb(255, 255, 255)55);
-  background-image: url(https://gifs.eco.br/wp-content/uploads/2021/09/lo-fi-aesthetic-gifs-1.gif);
+  background-image: image(lo-fi-aesthetic-gifs-1.gif);
  opacity: 1;
   margin-top: 20px;
   justify-content: center;
