@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
-
 body {
   font-size: 26px;
-  background: #ffffff;
-  font-family:'Times New Roman', Times, serif;
- }
-
+  background-image: url(https://i.imgur.com/SbeH9Ye.png);
+font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+}
  .main{
   max-width: 1500px;
   margin: 0 auto;
@@ -17,8 +16,29 @@ body {
 
  #img {
   border-radius: 5%;
-  width: 300px;
+  width: 150px;
+  height: 150px;
+  border-radius: 300px;
+  position: relative;
+  left: 150px;
+  top: 45px;
 }
+
+#discord {
+  position: relative;
+  left: 335px; /* Mudar a posição horizontal */
+  top: -301px; /* Mudar a posição vertical */
+    font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding: 8px;
+  margin-left: 0px;
+  height: 35px;
+  width: 35px;
+    transition: 0.9s;
+  src: (reisfvck<none>#4299);
+
+}
+
 
  #text{
   align-self: center;
@@ -26,62 +46,66 @@ body {
  }
 
  h4{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   opacity: 0.8;
  }
 
  .social{
+   position: relative;
+  left: 10px;
   font-size: 35px;
-  color: #000;
-  padding: 10px;
-  margin-left: 40px;
+  color: rgb(255, 255, 255);
+  padding: 8px;
+  margin-left: 0px;
   height: 50px;
   width: 50px;
   border-radius: 50%;
+  position: relative;
  }
-
 #insta:hover{
   color:  #f1f1f1;
   transition: 0.9s;
-  background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  background: #000000;
 
  }
 
  #linkedin:hover{
-  background: #0072b1;
+  background: #000000;
   color: #fff;
   transition: 0.5s;
  }
 
  #facebook:hover{
-  background: #4267B2;
+  background: #000000;
   color: #fff;
   transition: 0.5s;
  }
 
  #steam:hover{
-  color:  #f1f1f1;
+  color:  #ffffff;
   transition: 0.9s;
-  background-color: #171a21;
+  background-color: #000000;
  }
 
  #github:hover{
-  color: #171515;
+   background: #000000;
+  color: #ffffff;
   transition: 0.5s;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255)0, 0, 0);
  }
 
  .description{
-  font-size: 17px;
-  color: #08090b;
+  font-size: 27px;
+  color: #ffffff;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.836);
   max-width: 850px;
   padding: 10px;
-  background-color: #f1f1f1;
+  color: rgb(255, 255, 255)55);
+  background-image: url(https://gifs.eco.br/wp-content/uploads/2021/09/lo-fi-aesthetic-gifs-1.gif);
+ opacity: 1;
   margin-top: 20px;
   justify-content: center;
+  border-radius: 30px;
  }
 
  footer{
@@ -101,3 +125,9 @@ body {
   transition: 0.5s;
 }
 
+
+#musica {
+   position: relative;
+  left: 180px; /* Mudar a posição horizontal */
+  top: 70px; /* Mudar a posição vertical */
+  background-attachment: fixed;
